@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 25rem;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 7px 7px 112px 2px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 7px 7px 112px 2px rgba(0, 0, 0, 0.43);
+  box-shadow: 7px 7px 112px 2px rgba(0, 0, 0, 0.43);
+  border-radius: 11px;
+
+  padding-bottom: 20px;
+}
+
+.search {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.country-name {
+  border: none;
+  outline: none;
+  height: 2.2rem;
+  width: 13.77rem;
+  padding: 0 0 0 10px;
+  position: absolute;
+  left: 0;
+  border-radius: 999px 0 0 999px;
+}
+
+.country-name:focus {
+  height: 2.1rem;
+  border: solid 1px blue;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  height: 2.2rem;
+  width: 5rem;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  border-radius: 0 999px 999px 0;
+  background: linear-gradient(90deg, #6ff88d, #61cee9);
+}
+
+.area {
+  height: 2rem;
+  width: 19.5rem;
+  display: flex;
+  position: relative;
+  border-radius: 999px;
+}
+
+.wave {
+  background-color: lightgray;
+  width: 10rem;
+  height: 6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  padding: 20px 30px 0 20px;
+  display: flex;
+}
+.list {
+  list-style: none;
+  width: max-content;
+  height: max-content;
+}
+
+h1 {
+  font-size: 20px;
+  width: max-content;
+  height: max-content;
+  margin: 0;
+  padding: 0 0 0 20px;
+  color: gray;
+}
+.data {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+}
+
+.nei {
+  width: 6.07rem;
+  height: 4rem;
+  background: lightgray;
+}
+
+.per {
+  width: 6.07rem;
+  height: 4rem;
+}
+
+.pert {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  row-gap: 10px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
